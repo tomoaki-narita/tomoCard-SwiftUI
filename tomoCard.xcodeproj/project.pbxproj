@@ -11,6 +11,8 @@
 		E77E061E285F42340057E764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E061D285F42340057E764 /* ContentView.swift */; };
 		E77E0620285F42370057E764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77E061F285F42370057E764 /* Assets.xcassets */; };
 		E77E0623285F42370057E764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77E0622285F42370057E764 /* Preview Assets.xcassets */; };
+		E77E062B285F48EC0057E764 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E77E062A285F48EC0057E764 /* Pacifico-Regular.ttf */; };
+		E77E062E285F6D1D0057E764 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E062D285F6D1D0057E764 /* infoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		E77E061D285F42340057E764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E77E061F285F42370057E764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77E0622285F42370057E764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E77E062A285F48EC0057E764 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		E77E062C285F4D280057E764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E77E062D285F6D1D0057E764 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		E77E061A285F42340057E764 /* tomoCard */ = {
 			isa = PBXGroup;
 			children = (
+				E77E062C285F4D280057E764 /* Info.plist */,
+				E77E0629285F48BD0057E764 /* fonts */,
 				E77E061B285F42340057E764 /* tomoCardApp.swift */,
 				E77E061D285F42340057E764 /* ContentView.swift */,
+				E77E062D285F6D1D0057E764 /* infoView.swift */,
 				E77E061F285F42370057E764 /* Assets.xcassets */,
 				E77E0621285F42370057E764 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				E77E0622285F42370057E764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E77E0629285F48BD0057E764 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E77E062A285F48EC0057E764 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77E062B285F48EC0057E764 /* Pacifico-Regular.ttf in Resources */,
 				E77E0623285F42370057E764 /* Preview Assets.xcassets in Resources */,
 				E77E0620285F42370057E764 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77E062E285F6D1D0057E764 /* infoView.swift in Sources */,
 				E77E061E285F42340057E764 /* ContentView.swift in Sources */,
 				E77E061C285F42340057E764 /* tomoCardApp.swift in Sources */,
 			);
@@ -270,6 +288,9 @@
 				DEVELOPMENT_TEAM = DU562ND7L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tomoCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +320,9 @@
 				DEVELOPMENT_TEAM = DU562ND7L2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tomoCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
